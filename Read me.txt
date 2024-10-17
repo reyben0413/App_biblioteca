@@ -1,0 +1,21 @@
+1. Descomprime el archivo.
+2. Activa el entorno virtual "venv\Scripts\activate"
+3. Instala las dependencias con `pip install -r requirements.txt`.
+4. Carga la base de datos usando el archivo `biblioteca.sql`. "mysql -u TestUser -p <"
+5. En caso que al momento de ejecutar el paso anterior, salga un error del tipo "No se reconoce el comando mysql" seguir los siguientas pasos
+Ve al Panel de Control > Sistema > Configuración avanzada del sistema > Variables de entorno.
+Busca la variable Path, selecciónala y haz clic en Editar.
+Añade la ruta de MySQL (por ejemplo, C:\Program Files\MySQL\MySQL Server X.Y\bin).
+Guarda los cambios y abre una nueva ventana de terminal para probar de nuevo. 
+6. contraseña de la base de datos LSCTvqAinQ2wcAZ
+7. Ejecuta la aplicación con `python App1.py`
+8. la direccion del sitio web es http://127.0.0.1:5000
+9. El usuario para ingresar en la web es juan.perez@email.com y la contraseña es: contrasena123
+
+Aclaraciones:
+Este como tal es mi primer sitio web con base de datos enlazada, por lo cual me disculpo si no me di a entender de la mejor
+manera en los puntos anteriores. Estuve probando la web en un computador diferente al mio, en este caso el que uso en mi centro de formación
+pero tuve algunos problemas, como que los comandos mysql no funcionaban.
+desconozco si se tendria que crear el usuario "TestUser" en la maquina para que funcione en tal caso recomiendo que se haga, asi como tambien el uso de Xampp.
+
+Muchas gracias por darme la oportunidad, pues a final de cuentas esta experiencia me sirvio para tener mas conocimientos en mi area.
